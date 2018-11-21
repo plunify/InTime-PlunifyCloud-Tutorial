@@ -59,27 +59,27 @@
 11. マシンクラスを選択すると、InTimeはこのサブミッションのジョブIDを生成し、実際のコンパイル用にプロジェクトをPlunify Cloudにアップロードします。ジョブの提出が成功したかどうかを確認する通知が表示されます。ジョブIDを書き留めます（この例では81181）。このジョブIDを使用して、[Plunify Cloud website](https://cloud.plunify.com/) のジョブステータスを追跡できます。
 <p align="left"><img src="../../images/hotstart_job_submitted.png" /></p>
 
-12. (Optional) On the Plunify Cloud website, check the job status under 'History'>'Usage History'
+12. (オプション）Plunify CloudのWebサイトで、'History'>'Usage History' からジョブのステータスを確認できます。
 <p align="left"><img src="../../images/hotstart_job_status_web.png" /></p>
 
-13. Upon completion, a notification message will be sent to your registered email address.
+13. 完了すると、登録されたメールアドレスに通知メッセージが送信されます。
 <p align="left"><img src="../../images/hotstart_job_completed_email_notification.png" /></p>
 
-14. Back to the InTime software, right-click the 'impl 1' parent revision and select **Job Action>Download Remote Results>Download Remote Results Without Project File** to download the results.
+14. InTimeソフトウェアに戻って、'impl 1'の parent revisionを右クリックして、**Job Action>Download Remote Results>Download Remote Results Without Project File** を選択して結果をダウンロードします。
 <p align="left"><img src="../../images/hotstart_download_results.png" /></p>
 
-15. Change the 'Recipe' option to 'InTime Default'.
+15. 'Recipe' オプションで 'InTime Default'に変更します。.
 
-16. Right-click the revision with the best TNS and 'Set As Parent Revision'. In this example, both revisions "hotstart_1" and "hotstart_2" have the same result so it is okay to pick either one.
+16. ベスト結果の TNS を右クリックして'Set As Parent Revision'を選択します。この例では、"hotstart_1" と "hotstart_2" は同じ結果のため、どちらを選択しても問題ありません。
 <p align="left"><img src="../../images/intime_default_set_parent_revision.png" /></p>
 
-17. Repeat Steps 7 to Step 14 to run the 'InTime Default' recipe. 
+17. 手順7〜手順14を繰り返して、「InTime Default」Recipeを実行します。
 
-18. Change the 'Recipe' option to 'Extra Opt Exploration'.
+18. 'Recipe'オプションを 'Extra Opt Exploration'に変更します。
 
-19. Right-click the revision with the best TNS and 'Set As Parent Revision'. In this example, the revision with the best TNS is "calibrate_1". **Note** the calibrate_1 revision already met timing but we will continue using it to complete this tutorial. To enable this, set the 'Stop When Goal Met' option to 'False' in order to continue running. 
+19. ベスト結果の TNS を右クリックして 'Set As Parent Revision'を選択します。この例では、ベスト結果の TNS リビジョンは「calibrate_1」です。 In this example, the revision with the best TNS is "calibrate_1". **注** calibrate_1 リビジョンは、すでにタイミングメットしていますが、このチュートリアルを完了するためにあえてこれを使用していきます。これを有効にするには、'Stop When Goal Met' オプションを 'False' に設定して継続します。 
 
-20. Repeat Steps 7 to Step 14 for 'Extra Opt Exploration' recipe run. 
+20. 'Extra Opt Exploration'Recipe を実行するには、手順7〜手順14を繰り返します。
 
-21. Upon completion, the InTime results should look like those below.
+21. 完了すると、InTimeの結果は以下のようになります。
 <p align="left"><img src="../../images/final_result.png" /></p>
