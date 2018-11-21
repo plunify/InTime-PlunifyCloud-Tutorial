@@ -56,7 +56,7 @@
 10. クラウドでのコンパイルに使用するマシンのクラスを選択します。このチュートリアルでは、Class 1マシンを使用してください。
 <p align="left"><img src="../../images/select_class_machine.png" /></p>
 
-11. マシンクラスを選択すると、InTimeはこのサブミッションのジョブIDを生成し、実際のコンパイル用にプロジェクトをPlunify Cloudにアップロードします。ジョブの提出が成功したかどうかを確認する通知が表示されます。ジョブIDを書き留めます（この例では81181）。このジョブIDを使用して、[Plunify Cloud website](https://cloud.plunify.com/) のジョブステータスを追跡できます。
+11. マシンクラスを選択すると、InTimeはこのサブミッションのジョブIDを生成し、実際のコンパイル用にプロジェクトをPlunify Cloudにアップロードします。ジョブの提出が成功したかどうかを確認する通知が表示されます。ジョブIDを書き留めます（この例では81181）。このジョブIDを使用して、[Plunify Cloud website](https://cloud.plunify.com/) のジョブステータスで追跡ができます。
 <p align="left"><img src="../../images/hotstart_job_submitted.png" /></p>
 
 12. (オプション）Plunify CloudのWebサイトで、'History'>'Usage History' からジョブのステータスを確認できます。
