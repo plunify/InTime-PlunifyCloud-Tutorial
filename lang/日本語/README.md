@@ -44,19 +44,19 @@
 6. 'Recipe'オプションを 'Hot Start'に変更します（'Hot Start'がデフォルトのレシピです）。
 <p align="left"><img src="../../images/recipe_hotstart.png" /></p>
 
-7. Introductionセクションで説明したように、 'round per run'、 'rounds'、 'concurrent runs' オプションを希望の値に設定します。
+7. Introductionセクションで説明したように、 'runs per round'、 'rounds'、 'concurrent runs' オプションを希望の値に設定します。
 <p align="left"><img src="../../images/hotstart_settings.png" /></p>
 
 8. 'Start Recipe'をクリックして、ジョブをPlunify Cloudに送信します。
 <p align="left"><img src="../../images/start_recipe_icon.png" /></p>
 
-9. Enter your Plunify Cloud credentials. Note: you only need to do this once.
+9. Plunify Cloudの資格情報を入力します。注：これは一度だけ入力する必要があります。
 <p align="left"><img src="../../images/user_creditial.png" /></p>
 
-10. Select the class of machine to use for cloud compilation. Use Class 1 machines for this tutorial.
+10. クラウドでのコンパイルに使用するマシンのクラスを選択します。このチュートリアルでは、Class 1マシンを使用してください。
 <p align="left"><img src="../../images/select_class_machine.png" /></p>
 
-11. After choosing the machine class, InTime will generate a job ID for this submission and upload the project into Plunify Cloud for the actual compilations. Notifications will be shown to confirm if the job submission is successful or not. Make a note of the job ID (81181 in this example). You can use this job ID to track the job status on the [Plunify Cloud website](https://cloud.plunify.com/).
+11. マシンクラスを選択すると、InTimeはこのサブミッションのジョブIDを生成し、実際のコンパイル用にプロジェクトをPlunify Cloudにアップロードします。ジョブの提出が成功したかどうかを確認する通知が表示されます。ジョブIDを書き留めます（この例では81181）。このジョブIDを使用して、 [Plunify Cloud website](https://cloud.plunify.com/)のジョブステータスを追跡できます。
 <p align="left"><img src="../../images/hotstart_job_submitted.png" /></p>
 
 12. (Optional) On the Plunify Cloud website, check the job status under 'History'>'Usage History'
