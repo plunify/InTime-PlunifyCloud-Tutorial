@@ -1,7 +1,7 @@
 <img src="../../images/Plunify_Cloud_InTime.png" /><h1>チュートリアル：Plunify CloudでInTimeを使用したFPGAデザインの最適化</h1>
 
 
-## Introduction
+## イントロダクション
 これは、Plunify Cloud サービスを使用して、InTimeソフトウェアでFPGAデザインを最適化するための簡単なチュートリアルです。このチュートリアルでは、 "Hotstart" Recipe、 "InTime Default" Recipe、 "Extra Opt Exploration" Recipeについて説明します。Recipeのフローとその構成を以下に示します。
 
 **Recipe 1 : Hotstart**
@@ -19,12 +19,12 @@
   - rounds          : 1
   - concurrent runs : 2
 
-## Requirements
-1. InTime software version 2.6.8 or later
-2. Vivado software version 2017.2 or later
-3. Plunify Cloud account ([Register](https://cloud.plunify.com/register) a new account or refer a friend to get free credits.)
+## 要件
+1. InTimeソフトウェアバージョン2.6.8以降
+2. Vivadoソフトウェアバージョン2017.2以降
+3. Plunify Cloud アカウント (新規アカウント[登録](https://cloud.plunify.com/register) または、友人に紹介して無料クレジットを獲得)
 
-## Steps
+## ステップ
 
 1. Download or clone the sample project.
 
