@@ -1,5 +1,6 @@
 <img src="../../images/Plunify_Cloud_InTime.png" /><h1>チュートリアル：Plunify CloudでInTimeを使用したFPGAデザインの最適化</h1>
 
+(<a href="../../README.md">English</a>)
 
 ## イントロダクション
 これは、Plunify Cloud サービスを使用して、InTimeソフトウェアでFPGAデザインを最適化するための簡単なチュートリアルです。このチュートリアルでは、 "Hotstart" Recipe、 "InTime Default" Recipe、 "Extra Opt Exploration" Recipeについて説明します。Recipeのフローとその構成を以下に示します。
