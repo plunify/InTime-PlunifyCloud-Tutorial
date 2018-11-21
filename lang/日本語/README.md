@@ -77,7 +77,7 @@
 
 18. 'Recipe'オプションを 'Extra Opt Exploration'に変更します。
 
-19. ベスト結果の TNS を右クリックして 'Set As Parent Revision'を選択します。この例では、ベスト結果の TNS リビジョンは「calibrate_1」です。 In this example, the revision with the best TNS is "calibrate_1". **注** calibrate_1 リビジョンは、すでにタイミングメットしていますが、このチュートリアルを完了するためにあえてこれを使用していきます。これを有効にするには、'Stop When Goal Met' オプションを 'False' に設定して継続します。 
+19. ベスト結果の TNS を右クリックして 'Set As Parent Revision'を選択します。この例では、ベスト結果の TNS リビジョンは「calibrate_1」です。**注** calibrate_1 リビジョンは、すでにタイミングメットしていますが、このチュートリアルを完了するためにあえてこれを使用して実行します。これを有効にするには、'Stop When Goal Met' オプションを 'False' に設定して継続します。 
 
 20. 'Extra Opt Exploration'Recipe を実行するには、手順7〜手順14を繰り返します。
 
