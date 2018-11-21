@@ -1,4 +1,4 @@
-<img src="images/Plunify_Cloud_InTime.png" /><h1>Tutorial: Optimise an FPGA Design using InTime on Plunify Cloud</h1>
+<img src="../../images/Plunify_Cloud_InTime.png" /><h1>Tutorial: Optimise an FPGA Design using InTime on Plunify Cloud</h1>
 
 
 ## Introduction
