@@ -22,7 +22,7 @@
 ## 要件
 1. InTimeソフトウェアバージョン2.6.8以降
 2. Vivadoソフトウェアバージョン2017.2以降
-3. Plunify Cloud アカウント (新規アカウント[登録](https://cloud.plunify.com/register) または、友人に紹介して無料クレジットを獲得)
+3. Plunify Cloud アカウント (新規アカウント[登録](https://cloud.plunify.com/register)  または友人に紹介して無料クレジットを獲得)
 
 ## ステップ
 
