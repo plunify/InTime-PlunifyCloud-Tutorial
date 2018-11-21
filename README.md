@@ -20,15 +20,15 @@ This is a simple tutorial for the user to optimize an FPGA design with the InTim
   - concurrent runs : 2
 
 ## Requirements
-1. InTime software
-2. Vivado 2017.2
-3. Plunify Cloud account with at least 50 credits. ([Register](https://cloud.plunify.com/register) a new account to get  free credits.)
+1. InTime software version 2.6.8 or later
+2. Vivado software version 2017.2 or later
+3. Plunify Cloud account ([Register](https://cloud.plunify.com/register) a new account or refer a friend to get free credits.)
 
 ## Steps
 
 1. Download or clone the sample project.
 
-`git clone https://plunify/plunifycloud_tutorial`
+`https://github.com/plunify/InTime-PlunifyCloud-Tutorial.git`
 
 2. Unzip the project/eight_bit_uc.xpr.zip file.
 
