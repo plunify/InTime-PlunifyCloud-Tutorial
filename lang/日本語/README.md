@@ -26,28 +26,28 @@
 
 ## ステップ
 
-1. Download or clone the sample project.
+1. サンプルプロジェクトのダウンロードまたはクローンを作成します。
 
 `https://github.com/plunify/InTime-PlunifyCloud-Tutorial.git`
 
-2. Unzip the project/eight_bit_uc.xpr.zip file.
+2. project / eight_bit_uc.xpr.zipファイルを解凍します。
 
-3. Start InTime and open the sample eight_bit_uc project.
+3. InTimeを起動して、サンプルプロジェクト eight_bit_uc を開きます。
 <p align="left"><img src="../../images/open_project.png" /></p>
 
-4. Select the targeted toolchain. For this tutorial, we will use Vivado version 2017.2.
+4. ターゲットツールチェインを選択します。このチュートリアルでは、Vivadoバージョン2017.2を使用します。
 <p align="left"><img src="../../images/select_toolchain.png" /></p>
 
-5. Change the 'Run Target' option to 'Plunify Cloud'.
+5. 'Run Target'オプションを 'Plunify Cloud'に変更します。
 <p align="left"><img src="../../images/run_target_option.png" /></p>
 
-6. Change 'Recipe' option to 'Hot Start' ('Hot Start' is the default recipe).
+6. 'Recipe'オプションを 'Hot Start'に変更します（'Hot Start'がデフォルトのレシピです）。
 <p align="left"><img src="../../images/recipe_hotstart.png" /></p>
 
-7. Configure the desired value for 'runs per round', 'rounds', 'concurrent runs' options as outlined in the Introduction section.
+7. Introductionセクションで説明したように、 'round per run'、 'rounds'、 'concurrent runs' オプションを希望の値に設定します。
 <p align="left"><img src="../../images/hotstart_settings.png" /></p>
 
-8. Click 'Start Recipe' to submit the job to Plunify Cloud.
+8. 'Start Recipe'をクリックして、ジョブをPlunify Cloudに送信します。
 <p align="left"><img src="../../images/start_recipe_icon.png" /></p>
 
 9. Enter your Plunify Cloud credentials. Note: you only need to do this once.
