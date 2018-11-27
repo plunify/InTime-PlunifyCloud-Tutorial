@@ -1,85 +1,84 @@
-<img src="../../images/Plunify_Cloud_InTime.png" /><h1>Tutorial: Optimise an FPGA Design using InTime on Plunify Cloud</h1>
+<img src="../../images/Plunify_Cloud_InTime.png" /><h1>教程：使用 InTime 在 Plunify Cloud 优化 FPGA 设计</h1>
 
 
-## Introduction
-This is a simple tutorial for the user to optimize an FPGA design with the InTime software, using the Plunify Cloud service. This tutorial covers the "Hot Start" recipe, "InTime Default" recipe, and the "Extra Opt Exploration" recipe. The recipe flow and their configurations are shown as below.
+## 教程介绍
+本教程旨在指导用户通过 Plunify Cloud 的云服务器，来使用 InTime 软件优化 FPGA 设计。教程涵盖 "Hot Start" 配方、"InTime Default" 配方，以及 "Extra Opt Exploration"  配方。配方的流程以及它们的设置如下所示。
 
-**Recipe 1 : Hotstart**
-  - runs per round  : 2
-  - rounds          : 1
-  - concurrent runs : 2
+**配方 1 : Hotstart**
+  - 每轮运行数: 2
+  - 轮数      : 1
+  - 并行运行数: 2
   
-**Recipe 2 : InTime Default**
-  - runs per round  : 2
-  - rounds          : 1
-  - concurrent runs : 2
+**配方 2 : InTime Default**
+  - 每轮运行数: 2
+  - 轮数      : 1
+  - 并行运行数: 2
 
-**Recipe 3 : Extra Opt Exploration**
-  - runs per round  : 2
-  - rounds          : 1
-  - concurrent runs : 2
+**配方 3 : Extra Opt Exploration**
+  - 每轮运行数: 2
+  - 轮数      : 1
+  - 并行运行数: 2
 
-## Requirements
-1. InTime software version 2.6.8 or later
-2. Vivado software version 2017.2 or later
-3. Plunify Cloud account ([Register](https://cloud.plunify.com/register) a new account or refer a friend to get free credits.)
+## 工具要求
+1. InTime 软件版本2.6.8或更新版本
+2. Vivado 软件版本2017.2或更新版本
+3. Plunify Cloud 账户 ([注册](https://cloud.plunify.com/register?lang=CN) 新账户以及邀请朋友都将获得免费云币)
 
-## Steps
+## 步骤
 
-1. Download or clone the sample project.
+1. 下载或克隆示例项目。
 
 `https://github.com/plunify/InTime-PlunifyCloud-Tutorial.git`
 
-2. Unzip the project/eight_bit_uc.xpr.zip file.
+2. 解压文件。 project/eight_bit_uc.xpr.zip
 
-3. Start InTime and open the sample eight_bit_uc project.
+3. 启动 InTime，打开示例项目 eight_bit_uc。
 <p align="left"><img src="../../images/open_project.png" /></p>
 
-4. Select the targeted toolchain. For this tutorial, we will use Vivado version 2017.2.
+4. 选择目标工具。在本教程中，我们使用 Vivado 2017.2版本。
 <p align="left"><img src="../../images/select_toolchain.png" /></p>
 
-5. Change the 'Run Target' option to 'Plunify Cloud'.
+5. 把 'Run Target' 设置成 'Plunify Cloud'。
 <p align="left"><img src="../../images/run_target_option.png" /></p>
 
-6. Change 'Recipe' option to 'Hot Start' ('Hot Start' is the default recipe).
+6. 把配方 ('Recipe')设置成 'Hot Start' ('Hot Start' 是默认配方)。
 <p align="left"><img src="../../images/recipe_hotstart.png" /></p>
 
-7. Configure the desired value for 'runs per round', 'rounds', 'concurrent runs' options as outlined in the Introduction section.
+7. 将每轮运行数('runs per round')、轮数('rounds')、并行运行数('concurrent runs')设置成教程介绍中的数值。
 <p align="left"><img src="../../images/hotstart_settings.png" /></p>
 
-8. Click 'Start Recipe' to submit the job to Plunify Cloud.
+8. 点击 'Start Recipe'， 将任务提交到 Plunify Cloud 的云服务器。
 <p align="left"><img src="../../images/start_recipe_icon.png" /></p>
 
-9. Enter your Plunify Cloud credentials. Note: you only need to do this once.
+9. 输入 Plunify Cloud 账户信息。您只需输入这一次。
 <p align="left"><img src="../../images/user_creditial.png" /></p>
 
-10. Select the class of machine to use for cloud compilation. Use Class 1 machines for this tutorial.
+10. 选择云端编译的服务器类别。本教程中使用 Class 1。
 <p align="left"><img src="../../images/select_class_machine.png" /></p>
 
-11. After choosing the machine class, InTime will generate a job ID for this submission and upload the project into Plunify Cloud for the actual compilations. Notifications will be shown to confirm if the job submission is successful or not. Make a note of the job ID (81181 in this example). You can use this job ID to track the job status on the [Plunify Cloud website](https://cloud.plunify.com/).
+11. 选择服务器类别之后，InTime 会为本项目生成任务 ID (job ID)，并将项目上传到 Plunif Cloud 以进行编译。 上传成功或失败，都会有通知显示。请记住您的任务 ID(本示例中为81181)。您可以使用这个 ID 在 [Plunify Cloud 控制台](https://cloud.plunify.com/?lang=CN)查看任务进程。
 <p align="left"><img src="../../images/hotstart_job_submitted.png" /></p>
 
-12. (Optional) On the Plunify Cloud website, check the job status under 'History'>'Usage History'
+12. (选做) 在 Plunify Cloud 控制台，您可以在 'History'>'Usage History' 查看历史任务状态。
 <p align="left"><img src="../../images/hotstart_job_status_web.png" /></p>
 
-13. Upon completion, a notification message will be sent to your registered email address.
+13. 完成之后，您的注册邮箱会收到一封通知邮件。
 <p align="left"><img src="../../images/hotstart_job_completed_email_notification.png" /></p>
 
-14. Back to the InTime software, right-click the 'impl 1' parent revision and select **Job Action>Download Remote Results>Download Remote Results Without Project File** to download the results.
+14. 回到 InTime 软件，右击'impl 1'的父版本，然后选择**Job Action>Download Remote Results>Download Remote Results Without Project File** 来下载结果。
 <p align="left"><img src="../../images/hotstart_download_results.png" /></p>
 
-15. Change the 'Recipe' option to 'InTime Default'.
+15. 将配方('Recipe')设置成 'InTime Default'。
 
-16. Right-click the revision with the best TNS and 'Set As Parent Revision'. In this example, both revisions "hotstart_1" and "hotstart_2" have the same result so it is okay to pick either one.
+16. 右击拥有最好 TNS 的版本，然后点击 'Set As Parent Revision' 将它设置成父版本。本示例中，"hotstart_1" 和 "hotstart_2" 拥有同样好的结果，所以在二者之间任选其一即可。
 <p align="left"><img src="../../images/intime_default_set_parent_revision.png" /></p>
 
-17. Repeat Steps 7 to Step 14 to run the 'InTime Default' recipe. 
+17. 重复步骤7到14，运行 'InTime Default' 配方。
+18. 将配方('Recipe')设置成 'Extra Opt Exploration'。
 
-18. Change the 'Recipe' option to 'Extra Opt Exploration'.
+19. 右击拥有最好 TNS 的版本，然后点击 'Set As Parent Revision' 将它设置成父版本。本示例中，"calibrate_1" 拥有最好的 TNS。 **注意** "calibrate_1" 版本已经达到时序要求，但是我们仍然使用它来完成这个教程。您可以在时序目标实现的时候停止运行，您只需将 'Stop When Goal Met' 设置成 'False' 即可。
 
-19. Right-click the revision with the best TNS and 'Set As Parent Revision'. In this example, the revision with the best TNS is "calibrate_1". **Note** the calibrate_1 revision already met timing but we will continue using it to complete this tutorial. To enable this, set the 'Stop When Goal Met' option to 'False' in order to continue running. 
+20. 重复步骤7到14，运行 'Extra Opt Exploration' 配方。
 
-20. Repeat Steps 7 to Step 14 for 'Extra Opt Exploration' recipe run. 
-
-21. Upon completion, the InTime results should look like those below.
+21. 完成之后，InTime 结果应该如下图所示。
 <p align="left"><img src="../../images/final_result.png" /></p>
