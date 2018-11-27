@@ -2,7 +2,8 @@
 
 
 ## 教程介绍
-本教程旨在指导用户通过 Plunify Cloud 的云服务器，来使用 InTime 软件优化 FPGA 设计。教程涵盖 "Hot Start" 配方、"InTime Default" 配方，以及 "Extra Opt Exploration"  配方。配方的流程以及它们的设置如下所示。
+本教程旨在指导用户通过 Plunify Cloud 的云服务器，来使用 InTime 软件优化 FPGA 设计。如果您首次使用 InTime，请免费[申请该软件的本地试用](https://www.plunify.com/cn/free-evaluation/)。<br>
+本教程涵盖 "Hot Start" 配方、"InTime Default" 配方，以及 "Extra Opt Exploration"  配方。配方的流程以及它们的设置如下所示。
 
 **配方 1 : Hotstart**
   - 每轮运行数: 2
