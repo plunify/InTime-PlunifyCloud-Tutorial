@@ -1,6 +1,7 @@
 <img src="images/Plunify_Cloud_InTime.png" /><h1>Tutorial: Optimize an FPGA Design using InTime on Plunify Cloud</h1>
 
 (<a href="lang/日本語/README.md">日本語</a>)
+(<a href="lang/中文/README.md">中文</a>)
 
 ## Introduction
 This is a simple tutorial for the user to optimize an FPGA design with the InTime software, using the Plunify Cloud service. This tutorial covers the "Hot Start" recipe, "InTime Default" recipe, and the "Extra Opt Exploration" recipe. The recipe flow and their configurations are shown as below.
@@ -57,10 +58,10 @@ This is a simple tutorial for the user to optimize an FPGA design with the InTim
 10. Select the class of machine to use for cloud compilation. Use Class 1 machines for this tutorial.
 <p align="left"><img src="images/select_class_machine.png" /></p>
 
-11. After choosing the machine class, InTime will generate a job ID for this submission and upload the project into Plunify Cloud for the actual compilations. Notifications will be shown to confirm if the job submission is successful or not. Make a note of the job ID (81181 in this example). You can use this job ID to track the job status on the [Plunify Cloud website](https://cloud.plunify.com/).
+11. After choosing the machine class, InTime will generate a job ID for this submission and upload the project into Plunify Cloud for the actual compilations. Notifications will be shown to confirm if the job submission is successful or not. Make a note of the job ID (81181 in this example). You can use this job ID to track the job status on the [Plunify Cloud web console](https://cloud.plunify.com/).
 <p align="left"><img src="images/hotstart_job_submitted.png" /></p>
 
-12. (Optional) On the Plunify Cloud website, check the job status under 'History'>'Usage History'
+12. (Optional) On the Plunify Cloud web console, check the job status under 'History'>'Usage History'
 <p align="left"><img src="images/hotstart_job_status_web.png" /></p>
 
 13. Upon completion, a notification message will be sent to your registered email address.
