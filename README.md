@@ -5,6 +5,7 @@
 
 ## Introduction
 This is a simple tutorial for the user to optimize an FPGA design with the InTime software, using the Plunify Cloud service. This tutorial covers the "Hot Start" recipe, "InTime Default" recipe, and the "Extra Opt Exploration" recipe. The recipe flow and their configurations are shown as below.
+If you are new to InTime, please apply for a [local evaluation](https://www.plunify.com/en/free-evaluation/) of the software for free.
 
 **Recipe 1 : Hotstart**
   - runs per round  : 2
