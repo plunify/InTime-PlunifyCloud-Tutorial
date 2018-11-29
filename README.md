@@ -1,7 +1,6 @@
 <img src="images/Plunify_Cloud_InTime.png" /><h1>Tutorial: Optimize an FPGA Design using InTime on Plunify Cloud</h1>
 
-(<a href="lang/日本語/README.md">日本語</a>)
-(<a href="lang/中文/README.md">中文</a>)
+(<a href="lang/中文/README.md">中文</a>|<a href="lang/日本語/README.md">日本語</a>)
 
 ## Introduction
 This is a simple tutorial for the user to optimize an FPGA design with the InTime software, using the Plunify Cloud service. If you are new to InTime, please [apply for a local evaluation](https://www.plunify.com/en/free-evaluation/) of the software for free.<br>
@@ -56,7 +55,7 @@ This tutorial covers the "Hot Start" recipe, "InTime Default" recipe, and the "E
 9. Enter your Plunify Cloud credentials. Note: you only need to do this once.
 <p align="left"><img src="images/user_creditial.png" /></p>
 
-10. Select the class of machine to use for cloud compilation. Use Class 1 machines for this tutorial.
+10. Select the class of machine to use for cloud compilation. Use Class CA1 machines for this tutorial.
 <p align="left"><img src="images/select_class_machine.png" /></p>
 
 11. After choosing the machine class, InTime will generate a job ID for this submission and upload the project into Plunify Cloud for the actual compilations. Notifications will be shown to confirm if the job submission is successful or not. Make a note of the job ID (81181 in this example). You can use this job ID to track the job status on the [Plunify Cloud web console](https://cloud.plunify.com/).
