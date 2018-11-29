@@ -1,6 +1,6 @@
 <img src="../../images/Plunify_Cloud_InTime.png" /><h1>チュートリアル：Plunify CloudでInTimeを使用したFPGAデザインの最適化</h1>
 
-(<a href="../../README.md">English</a>)
+(<a href="../../README.md">English</a>|<a href="../中文/README.md">中文</a>)
 
 ## イントロダクション
 これは、Plunify Cloud サービスを使用して、InTimeソフトウェアでFPGAデザインを最適化するための簡単なチュートリアルです。このチュートリアルでは、 "Hotstart" Recipe、 "InTime Default" Recipe、 "Extra Opt Exploration" Recipeについて説明します。Recipeのフローとその構成を以下に示します。
@@ -54,7 +54,7 @@
 9. Plunify Cloudの資格情報を入力します。注：これは一度だけ入力する必要があります。
 <p align="left"><img src="../../images/user_creditial.png" /></p>
 
-10. クラウドでのコンパイルに使用するマシンのクラスを選択します。このチュートリアルでは、Class 1マシンを使用してください。
+10. クラウドでのコンパイルに使用するマシンのクラスを選択します。このチュートリアルでは、Class CA1マシンを使用してください。
 <p align="left"><img src="../../images/select_class_machine.png" /></p>
 
 11. マシンクラスを選択すると、InTimeはこのサブミッションのジョブIDを生成し、実際のコンパイル用にプロジェクトをPlunify Cloudにアップロードします。ジョブの提出が成功したかどうかを確認する通知が表示されます。ジョブIDを書き留めます（この例では81181）。このジョブIDを使用して、[Plunify Cloud website](https://cloud.plunify.com/) のジョブステータスで追跡ができます。
