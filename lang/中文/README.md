@@ -1,6 +1,6 @@
 <img src="../../images/Plunify_Cloud_InTime.png" /><h1>教程：使用 InTime 在 Plunify Cloud 优化 FPGA 设计</h1>
 
-(<a href="../README.md">English</a>|<a href="lang/日本語/README.md">日本語</a>)
+(<a href="../../README.md">English</a>|<a href="../日本語/README.md">日本語</a>)
 
 ## 教程介绍
 本教程旨在指导用户通过 Plunify Cloud 的云服务器，来使用 InTime 软件优化 FPGA 设计。如果您首次使用 InTime，请免费[申请该软件的本地试用](https://www.plunify.com/cn/free-evaluation/)。<br>
