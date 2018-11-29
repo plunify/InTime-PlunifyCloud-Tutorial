@@ -1,5 +1,6 @@
 <img src="../../images/Plunify_Cloud_InTime.png" /><h1>教程：使用 InTime 在 Plunify Cloud 优化 FPGA 设计</h1>
 
+(<a href="../README.md">English</a>|<a href="lang/日本語/README.md">日本語</a>)
 
 ## 教程介绍
 本教程旨在指导用户通过 Plunify Cloud 的云服务器，来使用 InTime 软件优化 FPGA 设计。如果您首次使用 InTime，请免费[申请该软件的本地试用](https://www.plunify.com/cn/free-evaluation/)。<br>
@@ -54,10 +55,10 @@
 9. 输入 Plunify Cloud 账户信息。您只需输入这一次。
 <p align="left"><img src="../../images/user_creditial.png" /></p>
 
-10. 选择云端编译的服务器类别。本教程中使用 Class 1。
+10. 选择云端编译的服务器类别。本教程中使用 Class CA1。
 <p align="left"><img src="../../images/select_class_machine.png" /></p>
 
-11. 选择服务器类别之后，InTime 会为本项目生成任务 ID (job ID)，并将项目上传到 Plunif Cloud 以进行编译。 上传成功或失败，都会有通知显示。请记住您的任务 ID(本示例中为81181)。您可以使用这个 ID 在 [Plunify Cloud 控制台](https://cloud.plunify.com/?lang=CN)查看任务进程。
+11. 选择服务器类别之后，InTime 会为本项目生成任务 ID (job ID)，并将项目上传到 Plunify Cloud 以进行编译。 上传成功或失败，都会有通知显示。请记住您的任务 ID(本示例中为81181)。您可以使用这个 ID 在 [Plunify Cloud 控制台](https://cloud.plunify.com/?lang=CN)查看任务进程。
 <p align="left"><img src="../../images/hotstart_job_submitted.png" /></p>
 
 12. (选做) 在 Plunify Cloud 控制台，您可以在 'History'>'Usage History' 查看历史任务状态。
