@@ -22,7 +22,7 @@ This tutorial covers the "Hot Start" recipe, "InTime Default" recipe, and the "E
   - concurrent runs : 2
 
 ## Requirements
-1. InTime software version 2.6.8 or later
+1. InTime software version 2.6.8 or later ([Request a free evaluation](https://www.plunify.com/en/free-evaluation/))
 2. Vivado software version 2017.2 or later
 3. Plunify Cloud account ([Register](https://cloud.plunify.com/register) a new account or refer a friend to get free credits.)
 
