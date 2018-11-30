@@ -22,7 +22,7 @@
   - 并行运行数: 2
 
 ## 工具要求
-1. InTime 软件版本2.6.8或更新版本 ([试用](https://www.plunify.com/en/free-evaluation/))
+1. InTime 软件版本2.6.8或更新版本 ([试用申请](https://www.plunify.com/en/free-evaluation/))
 2. Vivado 软件版本2017.2或更新版本
 3. Plunify Cloud 账户 ([注册](https://cloud.plunify.com/register?lang=CN) 新账户以及邀请朋友都将获得免费云币)
 
