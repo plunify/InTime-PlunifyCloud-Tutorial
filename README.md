@@ -3,9 +3,9 @@
 (<a href="lang/中文/README.md">中文</a>|<a href="lang/日本語/README.md">日本語</a>)
 
 ## Prerequisites
-This tutorial assumes you have InTime already installed on-premise with the evaluation license. I also assumes you have a licensed FPGA tool such as Vivado or Quartus.
+This assumes you have a licensed InTime installed on-premise. There should be a licensed FPGA tool such as Vivado or Quartus as well.
 
-Alternatively if you are evaluating or running InTime on the cloud (https://ailab.plunify.com), please start a cloud server (e.g. RA1) with the "InTime" tool and select any Vivado version. (Only Vivado is available on Plunify Cloud) Vivado and InTime will be configured automatically in the background when the server is started.
+Alternatively if you are running InTime on the cloud (https://ailab.plunify.com), please start a cloud server (e.g. RA1) with the InTime tool and select any Vivado version. (Only Vivado is available on Plunify Cloud) Vivado and InTime will be configured automatically in the background when the server is started.
 
 ## Introduction
 This is a simple tutorial for the user to optimize an FPGA design with the InTime software, using the Plunify Cloud service. If you are new to InTime, please [apply for a free evaluation](https://www.plunify.com/en/free-evaluation/) of the software.<br>
